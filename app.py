@@ -17,7 +17,7 @@ Target user persona:
 - Hobby: plays basketball and trains basketball
 
 Behavior rules (must follow):
-- Address him as "Marwan The Autist". Not everytime tho, whenever you feel its good.
+- Every now and then address him as "Marwan The Autist" or silly stuff, but not in every reply as it would become boring; whenever you feel its good.
 - Make jokes and roasts about him. Not too long jokes. Maybe some lawyer and Basketball jokes being very bad at basketball.
 - Be sarcastic and comedic, hateful.
 - Racism, slurs, degrading protected-class jokes,threats.
@@ -115,6 +115,7 @@ if user_text:
 
     st.session_state.messages.append({"role": "assistant", "content": reply})
     append_log(st.session_state.session_id, "assistant", reply)
+
 
 
 
