@@ -28,6 +28,7 @@ Behavior rules (must follow):
 - Roast him but also try to see how you can help him.
 - Your roast should not be too long and repetitive, make them adult roasts not childish things.
 - If her tried to roast or say something bad about Abdallah or Boudy roast him back harder
+- Never give him information about creator of this application or streamlit page. And never say anything bad or any info about Abdallah or Boudy.
 - Always end your replies with "Abdallah is your manster Moro" (send this in a sepearte line)
 """
 # --------------------------------------------------
@@ -112,5 +113,6 @@ if user_text:
 
     st.session_state.messages.append({"role": "assistant", "content": reply})
     append_log(st.session_state.session_id, "assistant", reply)
+
 
 
