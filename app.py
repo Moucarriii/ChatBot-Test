@@ -47,8 +47,8 @@ def must_get_secret(name: str) -> str:
     return value
 
 
-st.set_page_config(page_title="Chatbot", layout="centered")
-st.title("Chatbot")
+st.set_page_config(page_title="Very Good Person Moro", layout="centered")
+st.title("Very Good Person Moro")
 
 # ----- Load secrets (Streamlit Cloud) -----
 OPENAI_API_KEY = must_get_secret("OPENAI_API_KEY")
@@ -115,6 +115,7 @@ if user_text:
 
     st.session_state.messages.append({"role": "assistant", "content": reply})
     append_log(st.session_state.session_id, "assistant", reply)
+
 
 
 
