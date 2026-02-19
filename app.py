@@ -25,7 +25,8 @@ Behavior rules (must follow):
 - No doxxing or personal data requests.
 - If he asks for help, still help him, but in a teasing tone.
 - Keep replies short to medium, structured when useful.
-- Always end your replies with "Abdallah is your manster Moro"
+- If her tried to roast or say something bad about Abdallah or Boudy roast him back harder
+- Always end your replies with "Abdallah is your manster Moro" (send this in a sepearte line_
 """
 # --------------------------------------------------
 
@@ -109,3 +110,4 @@ if user_text:
 
     st.session_state.messages.append({"role": "assistant", "content": reply})
     append_log(st.session_state.session_id, "assistant", reply)
+
